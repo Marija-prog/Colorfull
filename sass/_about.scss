@@ -1,0 +1,35 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    &__img {
+    width: 100%;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+    box-shadow: rgba($color: black, $alpha: 0.5);
+    }
+    &__box {
+        grid-column: 4 / span 2;
+        grid-row: 1 / span 2;
+        display: flex;
+        flex-direction: column;
+        background-color: #C39BD3;
+        justify-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #C39BD3;
+        border-top: 2px solid #C39BD3;
+    }
+   &__heading {
+    font-family: inherit;
+    font-size: 4rem;
+    color:white;
+    padding: 1rem 3rem;
+   }
+    &__text {
+        font-family: inherit;
+        font-size: 2rem;
+        color: hsl(283, 39%, 58%);
+        padding: 1rem 3rem;
+    }
+}

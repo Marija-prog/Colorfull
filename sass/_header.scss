@@ -1,29 +1,30 @@
 .header {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-    &__logo-box {
-    }
+    background-color: #d7bde2;
+    
 
-    &__logo {
-        height: 100%;
-        padding-left: 2rem;
-        display: block;
-        box-shadow: rgba(black, .2);
+    &__nav {
+       
     }
 
     &__list {
-        list-style-type: none;
         display: flex;
-        font-size: 2rem;
+        list-style-type: none;
+        justify-content: flex-end;
         align-items: center;
-        justify-content: center;
+        
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
     }
 
     &__item {
         padding: 2rem;
-
+        //text-decoration: none;
         &--1 {
 
         }

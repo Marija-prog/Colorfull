@@ -1,9 +1,9 @@
-
-.hobies {
+.features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 5rem 3rem;
     grid-gap: 6rem;
+    padding: 5% 0;
+    //background-color: #E8DAEF;
 
     &__item {
         display: grid;
@@ -11,14 +11,15 @@
     }
 
     &__icon {
-        height: 7rem;
-        width: 7rem;
+        height: 5rem;
+        width: 5rem;
         fill: #C39BD3;
     }
 
     &__text {
         font-family: inherit;
         font-size: 1.7rem;
+        font-weight: 400;
         grid-column: 2 / span 1;
     }
 

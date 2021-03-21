@@ -1,24 +1,24 @@
 .header {
     background-color: #d7bde2;
-    
-
-    &__nav {
-       
-    }
-
     &__list {
         display: flex;
         list-style-type: none;
         justify-content: flex-end;
         align-items: center;
-        
+
+        @media only screen and (max-width: $bp-large) {
+            justify-content: center;
+        }
+        @media only screen and (max-width: $bp-small) {
+            display: none; //create hambureger
+        }
     }
 
     &__link {
         text-decoration: none;
         font-family: inherit;
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: white;
     }
 

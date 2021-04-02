@@ -1,26 +1,28 @@
 .hero {
-    display: block;
     background-image: url(../img/layout/matthieu-brajon-yVHfm4KxpCY-unsplash.jpg);
+    display: block;
     height: 90vh;
+    position: relative;
     @media only screen and (max-width: $bp-largest) {
         height: 90vh;
     }
     @media only screen and (max-width: $bp-large) {
-        height: 90vh;
-        background-repeat: no-repeat;
-        width: 100%;
         background-color: black;
+        background-repeat: no-repeat;
+        height: 90vh;
+        width: 100%;
     }
 
-    
-
-    &__heading {
-        font-size: 8rem;
+    &__1 {
+        backface-visibility: hidden;
         color: white;
         font-family: inherit;
-        font-weight: 500;
-        text-align: center;
-        padding: 100px 50px;
+        font-size: 8rem;
+        font-weight: 600;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
 
         @media only screen and (max-width: $bp-largest) {
             font-size: 10rem;
@@ -33,6 +35,15 @@
         }
         @media only screen and (max-width: $bp-small) {
             font-size: 6rem;
+        }
+        &--main {
+           animation: fadeIn ease-in 1.3s;
+           color: #9B59B6;
+
+        }
+        &--third {
+            animation: fadeIn ease-in 1.3s;
+           color: #9B59B6;
         }
     }
 

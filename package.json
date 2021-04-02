@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/Marija-prog/colorfull/issues"
   },
-  "homepage": "https://github.com/Marija-prog/colorfull#readme"
+  "homepage": "https://github.com/Marija-prog/colorfull#readme",
+  "dependencies": {}
 }

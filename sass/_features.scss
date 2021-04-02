@@ -1,4 +1,5 @@
 .features {
+    backface-visibility: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 6rem;
@@ -18,6 +19,11 @@
         height: 5rem;
         width: 5rem;
         fill: #C39BD3;
+        transition: all .2s;
+
+        &:hover {
+            transform: scale(1.7);
+        }
     }
 
     &__text {
@@ -30,6 +36,8 @@
 }
 .heading-3 {
     align-items: center;
+    animation: moveInLeft 1.4s ease-in;
+    animation-fill-mode: backwards;
     font-family: inherit;
     font-size: 2.3rem;
     color: #9B59B6 ;

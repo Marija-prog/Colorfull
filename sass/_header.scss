@@ -14,19 +14,19 @@
         }
     }
 
-    &__link {
+    &__link:link,
+    &__link:visited {
         text-decoration: none;
         font-family: inherit;
         font-weight: 500;
         font-size: 2.5rem;
         color: white;
     }
+    &__link:hover {
+        color: #9B59B6;
+    }
 
     &__item {
         padding: 2rem;
-        //text-decoration: none;
-        &--1 {
-
-        }
     }
 }

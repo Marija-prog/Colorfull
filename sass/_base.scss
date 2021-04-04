@@ -1,11 +1,10 @@
 
+$bp-between: 50em;   //800px
 $bp-largest: 75em;    // 1200px
 $bp-large: 65.625em;    // 1000px
 $bp-medium: 56.25em;  //900px
-$bp-between: 50em;   //800px
 $bp-middle: 43.75em; //700px
 $bp-small: 37.5em;   //600px
-
 
 *,
 *::before,
@@ -16,8 +15,8 @@ $bp-small: 37.5em;   //600px
 }
 
 html {
-    font-size: 62.5%; // 1 rem :10px;
     box-sizing: border-box;
+    font-size: 62.5%; // 1 rem :10px;
 }
 
 body {

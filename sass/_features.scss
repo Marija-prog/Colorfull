@@ -17,9 +17,9 @@
 
     &__icon {
         height: 5rem;
-        width: 5rem;
         fill: #C39BD3;
         transition: all .2s;
+        width: 5rem;
 
         &:hover {
             transform: scale(1.7);
@@ -38,9 +38,9 @@
     align-items: center;
     animation: moveInLeft 1.4s ease-in;
     animation-fill-mode: backwards;
+    color: #9B59B6 ;
     font-family: inherit;
     font-size: 2.3rem;
-    color: #9B59B6 ;
     font-weight: 500;
 
     @media only screen and (max-width: $bp-medium) {

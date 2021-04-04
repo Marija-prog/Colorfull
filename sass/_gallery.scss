@@ -1,66 +1,62 @@
 .gallery {
+    background-color: #E8DAEF;
     display: grid;
     grid-template-columns: repeat(10, 8vw);
     grid-template-rows: repeat(10, 8vh);
     grid-gap: 1rem;
-    background-color: #E8DAEF;
     padding: 10px 0;
     
-
-
     &__item {
         &--1 {
-
+            animation: moveInLeft 1.3s ease-in;
             grid-row: 1 / span 4;
             grid-column: 1 / span 2;
-            animation: moveInLeft 1.3s ease-in;
         }
 
         &--2 {
+            animation: moveUp 1.3s ease-in;
             grid-column: 3 / span 2;
             grid-row: 1 / span 3;
-            animation: moveUp 1.3s ease-in;
-            
         }
 
         &--3 {
+            animation: scale 1.3s ease-in;
             grid-column: 5 / span 3;
             grid-row: 1 / span 4;
-            animation: scale 1.3s ease-in;
         }
 
         &--4 {
+            animation: moveUp 1.3s ease-in;
             grid-column: 9 / span 2;
             grid-row: 1 / span 2;
-            animation: moveUp 1.3s ease-in;
         }
 
         &--5 {
-            grid-row: 1 / span 2;
             animation: scale 1.3s ease-in;
+            grid-row: 1 / span 2;
         }
 
        &--6 {
+        animation: moveInLeft 1.3s ease-in;
            grid-column: 8 / span 3;
            grid-row: 3 / span 8;
-           animation: moveInLeft 1.3s ease-in;
         }
        &--7 {
+        animation: rotate 1.3s ease-in;
            grid-column: 1 / span 3;
            grid-row: 5 / span 6;
-           animation: rotate 1.3s ease-in;
        }
 
        &--8 {
+        animation: moveUp 1.3s ease-in;
         grid-column: 11/ span 2;
         grid-row: 7 / span 4;
-        animation: moveUp 1.3s ease-in;
     }
 
        &--9 {
+        animation: rotate 1.3s ease-in;
            grid-column: 11 / span 2;
            grid-row: 1 / span 3;
-           animation: rotate 1.3s ease-in;
        }
 
         &--11 {
@@ -70,9 +66,9 @@
         }
 
         &--12 {
+            animation: moveInLeft 1.3s ease-in;
             grid-column: 4 / span 2;
             grid-row: 8 / span 3;
-            animation: moveInLeft 1.3s ease-in;
         }
 
         &--13 {
@@ -83,13 +79,11 @@
         &--14 {
             grid-row: 4 / span 1;
             animation: scale 1.3s ease-in;
-
         }
 
         &--15 {
             grid-column: 4 /  span 1;
             grid-row: 4 /  span 1;
-
         }
 
 
@@ -101,8 +95,8 @@
     }
     &__img {
         display: block;
-        width: 100%;
         height: 100%;
+        width: 100%;
     }
 
 }

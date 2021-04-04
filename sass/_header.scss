@@ -1,10 +1,11 @@
 .header {
     background-color: #d7bde2;
+
     &__list {
+        align-items: center;
         display: flex;
         list-style-type: none;
         justify-content: flex-end;
-        align-items: center;
 
         @media only screen and (max-width: $bp-large) {
             justify-content: center;
@@ -16,14 +17,15 @@
 
     &__link:link,
     &__link:visited {
-        text-decoration: none;
+        color: white;
         font-family: inherit;
         font-weight: 500;
         font-size: 2.5rem;
-        color: white;
+        text-decoration: none;
     }
     &__link:hover {
         color: #9B59B6;
+        height: 3rem;
     }
 
     &__item {
